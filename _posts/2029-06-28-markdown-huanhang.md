@@ -8,7 +8,7 @@ tags: [Markodwn, 语法, 换行]
 pin: true
 math: true
 mermaid: true
-author: 克喵爱吃卤面 
+author: <author_id> 
 comments: true
 ---
 
