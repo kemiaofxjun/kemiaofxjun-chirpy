@@ -1,0 +1,22 @@
+---
+# Jekyll 头信息，必须有
+---
+
+@charset "utf-8";
+
+/* 让友链卡片跟随主题变量 */
+.friends-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  transition: background-color .2s, border-color .2s;
+}
+
+/* 描述文字 */
+.friends-card .text-muted {
+  color: var(--text-muted) !important;
+}
+
+/* 头像在深色模式下加一圈细边，更立体 */
+[data-mode=dark] .friends-card img {
+  border: 2px solid var(--card-border);
+}
